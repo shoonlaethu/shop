@@ -1,0 +1,480 @@
+
+
+<!DOCTYPE html>
+<head>
+    <title>Shoes</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" sizes="600x600">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>    
+<body>
+
+             <!-- start navbar -->
+
+
+             <div class="m-4">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                  <div class="container-fluid">
+                      <a href="index.html" class="navbar-brand mx-2 ">
+                        <img src="./images/logo.png" alt="logo" width="100px">
+                        <span class="text-light">Sright</span>
+                      </a>
+                     
+                      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-between text-uppercase fw-bold" id="navbarCollapse">
+                          <div class="navbar-nav ms-5 ">
+                              <a href="./index.html" class="nav-item nav-link active "> Home</a>
+                              <div class="nav-item dropdown">
+                                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                                  <div class="dropdown-menu lead jumbotron jumbotron-fluid">
+                                      <a href="./cloth.html" class="dropdown-item">Cloth</a>
+                                      <a href="./bag.html" class="dropdown-item">Bags</a>
+                                      <a href="./watch.html" class="dropdown-item">Watches</a>
+                                      <a href="./shoes.html" class="dropdown-item">Shoes</a>
+                                  </div>
+                              </div>
+    
+                              <a href="#" class="nav-item nav-link">Aboutus</a>
+                              <a href="#" class="nav-item nav-link">Review</a>
+                             
+      
+                        
+                          </div>
+                          <form class="d-flex me-2">
+                              <div class="input-group search-form">
+                                  <input type="text" class="form-control px-5 placeholder-glow " id="search-box" placeholder="                Searchhere...!">
+                                  <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i></button>
+                              </div>
+                          </form>
+                          <ul class="navbar-nav me-3">
+                              <a href="#"><li class="nav-item nav-link"> Signin</li></a>
+                              <a href="#"><li class="nav-item nav-link  mx-1">Signout</li></a>
+                              <a href="#"><li class="nav-item nav-link"> Language</li></a>
+                          </ul>
+                          
+                      </div>
+                  </div>
+              </nav>
+             </div>
+      
+             <!-- end navbar -->
+  
+  
+     <section>
+  
+      <div class="row mt-3">
+        <div class=" col mt-3 ms-5">
+    
+            <img class="ms-5"  src="./images/little-girl-pushing-a-shopping-cart-to-buy-things-gif_2515300.png!bw700" width="300px" alt="">
+        </div>
+        <div class="col mt-5 pt-6">
+            <h1 class="mt-5">Here's are Shoes</h1>
+            <h1>There're Many kind</h1>
+            <h3>  Come and see it</h3>
+        </div>
+      </div>
+     </section> 
+   
+    <div class="col float-start" style="margin-left:60px">
+
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe1.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Loafer
+                      </h5>
+                      <p class="card-text">Loafers are slip-on shoes that do not lace or buckle. They have low heels, no heels, or, rarely, wedge heels. Loafers may be professional or casual, depending ...
+
+                    </p>
+                     <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="">
+                        <select name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe2.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Sneakers</h5>
+                      <div class="card-text">Sneakers are shoes primarily designed for sports or other forms of physical exercise, but which are now also widely used for everyday casual wear.</div>
+
+                      <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="d-flex">
+                        <select class="row" name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                       
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe3.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Oxford shoes</h5>
+                      <div class="card-text">
+                        An Oxford shoe is characterized by shoelace eyelets tabs that are attached under the vamp, a feature termed "closed lacing". This contrasts with Derbys, or bluchers, which have shoelace eyelets attached to the top of the vamp.
+
+                      </div>
+                      <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="">
+                        <select name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe4.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Boot</h5>
+                      <p class="card-text">A boot is a type of footwear. Most boots mainly cover the foot and the ankle, while some also cover some part of the lower calf. Some boots extend up the leg, sometimes as far as the knee or even the hip.
+
+                       </p>
+                     <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="">
+                        <select name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    
+    
+     
+    </div>
+
+    <div class="col float-end " style="margin-right:60px">
+
+       
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe5.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Sandal</h5>
+                      <p class="card-text">Sandals are an open type of footwear, consisting of a sole held to the wearer's foot by straps going over the instep and around the ankle. Sandals can also have a heel.
+
+
+
+                    </p>
+                     <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="">
+                        <select name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe6.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Brogues</h5>
+                      <div class="card-text">The brogue is a style of low-heeled shoe or boot traditionally characterised by multiple-piece, sturdy leather uppers with decorative perforations and serration along the pieces' visible edges</div>
+
+
+                      <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="d-flex">
+                        <select class="row" name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                       
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row ">
+            <div class="card mb-3" style="max-width: 600px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/shoes/shoe7.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ballet flats</h5>
+                      <div class="card-text">
+                        Ballet flats are women's shoes for everyday wear which are similar to/inspired by a women's ballet shoes, with a very thin heel or the appearance of no heel at all.
+                      </div>
+                      <div class="rating">
+                        <ul class="list-unstyled d-flex justify-content-center mb-0">
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="fas fa-star fa-sm text-warning"></i>
+                            </li>
+                            <li>
+                              <i class="far fa-star fa-sm text-warning"></i>
+                            </li>
+                          </ul>
+                     </div>
+                      <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                      <div class="">
+                        <select name="size" id="size" onchange="abc(this)">
+                          <option disabled selected>Select your size</option>
+                          <option value="50px">Small</option>
+                          <option value="200px">Medium</option>
+                          <option value="300px">Large</option>
+                        </select>
+                        <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+    
+     
+    </div>
+
+    <!-- js file -->
+    <script src="./js/master.js"></script>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

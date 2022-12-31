@@ -1,0 +1,487 @@
+
+
+<!DOCTYPE html>
+<head>
+    <title>Bags</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" sizes="600x600">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>    
+<body>
+
+           <!-- start navbar -->
+
+
+
+           <div class="m-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a href="index.html" class="navbar-brand mx-2 ">
+                      <img src="./images/logo.png" alt="logo" width="100px">
+                      <span class="text-light">Sright</span>
+                    </a>
+                   
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between text-uppercase fw-bold" id="navbarCollapse">
+                        <div class="navbar-nav ms-5 ">
+                            <a href="./index.html" class="nav-item nav-link active "> Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                                <div class="dropdown-menu lead jumbotron jumbotron-fluid">
+                                    <a href="./cloth.html" class="dropdown-item">Cloth</a>
+                                    <a href="./bag.html" class="dropdown-item">Bags</a>
+                                    <a href="./watch.html" class="dropdown-item">Watches</a>
+                                    <a href="./shoes.html" class="dropdown-item">Shoes</a>
+                                </div>
+                            </div>
+  
+                            <a href="#" class="nav-item nav-link">Aboutus</a>
+                            <a href="#" class="nav-item nav-link">Review</a>
+                           
+    
+                      
+                        </div>
+                        <form class="d-flex me-2">
+                            <div class="input-group search-form">
+                                <input type="text" class="form-control px-5 placeholder-glow " id="search-box" placeholder="                Searchhere...!">
+                                <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                        <ul class="navbar-nav me-3">
+                            <a href="#"><li class="nav-item nav-link"> Signin</li></a>
+                            <a href="#"><li class="nav-item nav-link  mx-1">Signout</li></a>
+                            <a href="#"><li class="nav-item nav-link"> Language</li></a>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+           </div>
+    
+           <!-- end navbar -->
+
+
+   <section>
+
+    <div class="row mt-3">
+      <div class=" col mt-3 ms-5">
+  
+          <img class="ms-5"  src="./images/little-girl-pushing-a-shopping-cart-to-buy-things-gif_2515300.png!bw700" width="300px" alt="">
+      </div>
+      <div class="col mt-5 pt-6">
+          <h1 class="mt-5">Here's are Bags</h1>
+          <h1>There're Many kind</h1>
+          <h3>  Come and see it</h3>
+      </div>
+    </div>
+   </section>        
+
+   
+   <section>
+    <div class="col float-start" style="margin-left:60px">
+
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/backpack1.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Backpack</h5>
+                    <p class="card-text">Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles. However, 2017 brought about the fashion trend of smaller backpacks, that were anywhere from the size of a laptop to palm-sized. Also rucksack.
+
+                  </p>
+                   <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="">
+                      <select name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/beltbag2.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Beltbag2</h5>
+                    <div class="card-text">Micro bags attached to a belt are called belt bags. The difference between fanny packs and belt bags is that fanny packs have no visible demarcation between the belt strap and the bag, whereas belt bags are just a pouch attached to a belt. However, some brands use the two terms synonymously to describe these types of bags. Also called waist bag. Also see fanny pack.</div>
+
+                    <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="d-flex">
+                      <select class="row" name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                     
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+  
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/bindle3.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bindle</h5>
+                    <div class="card-text">
+                      A fabric sack tied around the end of a stick, carried over the shoulder by a hobo in the American Northeastern hobo community is called a bindle. Bindles were also commonly used by the poorer sections of the north and west-India. In the modern context, bindle is the term used to describe a sack made by knotting opposite ends of a fabric, and are created by fashion brands to give a modern, wearable twist to the hobo subculture. Also see hobo bag.
+
+                    </div>
+                    <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="">
+                      <select name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/boxclutch4.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Boxclutch</h5>
+                    <p class="card-text"> Hand-held evening bags in the shape of a box are known as box clutches. While box clutches may also be designed in a more casual way, used in the day time to complement casual outfits, traditionally, box clutches have been used as an evening accessory. Box clutches are sometimes without handles or straps. Also see clutch.
+
+                     </p>
+                   <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="">
+                      <select name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+  
+  
+   
+  </div>
+
+  <div class="col float-end " style="margin-right:60px">
+
+     
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/bowlingbag5.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bowlingbag</h5>
+                    <p class="card-text"> Inspired by traditional bags used to carry bowling balls, bowling bags are semi circle in shape with short handles. Also see duffel bag.
+
+
+
+                  </p>
+                   <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="">
+                      <select name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images//bags/briefcase6.jpg" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Briefcase.jpg</h5>
+                    <div class="card-text">A hard, rectangular box-like bag with a small handle is known as briefcase. Also see laptop bag. Men’s briefcases are almost always hard-cased and boxy. Some women’s briefcases may be of soft material like leather, and have rounder, softer edges.</div>
+
+                    <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="d-flex">
+                      <select class="row" name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                     
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+  
+      <div class="row ">
+          <div class="card mb-3" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/bags/bucketbag7.png" class="img-fluid rounded-start"  alt="shoe" id="shoe" width="200px" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bucketbag</h5>
+                    <div class="card-text">
+                      Elongated bags that have top handles, resembling a bucket, or drawstring on the top as a closure are called bucket bags. These types of bags may also have a zip or snap stud (tich) button closure on the inside, and often have an oval or round base. Also known as a drawstring bag, when the top closure is a drawstring.
+                    </div>
+                    <div class="rating">
+                      <ul class="list-unstyled d-flex justify-content-center mb-0">
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                          </li>
+                          <li>
+                            <i class="far fa-star fa-sm text-warning"></i>
+                          </li>
+                        </ul>
+                   </div>
+                    <p class="card-text"><span class="text-warning d-3">$90.99</span></p>
+                    <div class="">
+                      <select name="size" id="size" onchange="abc(this)">
+                        <option disabled selected>Select your size</option>
+                        <option value="50px">Small</option>
+                        <option value="200px">Medium</option>
+                        <option value="300px">Large</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-info ms-5">Buy</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  
+  
+   
+  </div>
+   </section>
+
+
+   <section>
+    
+   </section>
+
+
+    <!-- js file -->
+    <script src="./js/master.js"></script>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
